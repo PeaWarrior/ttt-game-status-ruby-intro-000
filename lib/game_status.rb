@@ -58,5 +58,6 @@ def winner(board)
     return "X"
   elsif won? != false && board[won?(board)[0]] == "O"
     return "O"
+  else return false
   end
 end
